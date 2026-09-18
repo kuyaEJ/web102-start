@@ -39,5 +39,5 @@ npm run dev
 ```
 
 ## Results:
-This image represents is what the code should bring up
+This image is what the code should bring up
 ![alt text](image.png)
