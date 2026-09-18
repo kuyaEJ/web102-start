@@ -1,16 +1,43 @@
-# React + Vite
+# Unit 1 Lab: Timetabled
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Overview
 
-Currently, two official plugins are available:
+In this lab you'll build Timetabled, a grid-style one-week calendar of one-hour events. You'll plan the week for someone else (a friend, family member, historical figure, role model, or imaginary person), and it can be informative, humorous, or exploratory.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Need a spark? Try planning a vacation for a friend or pet, a week in the life of a historical figure, an adjustment to a polyphasic sleep cycle, or the week before a famous crime.
 
-## React Compiler
+## What you'll build
+- [x] Required: A one-week calendar that includes one-hour time blocks
+- [x] Required: Events have different titles
+- [x] Required: Events have different colors based on their type
+- [x] Stretch: Event blocks have additional information, such as a description and location
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Resources: Vite • React components • JSX • props
+- [Getting Started with Vite](https://vitejs.dev/guide)
+- [ReactJS: Your First Component](https://react.dev/learn/your-first-component)
+- [ReactJS: Writing Markup with JSX](https://react.dev/learn/writing-markup-with-jsx)
+- [ReactJS: JavaScript in JSX](https://react.dev/learn/javascript-in-jsx-with-curly-braces)
+- [ReactJS: Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
 
-## Expanding the Oxlint configuration
+## Tools & Technologies:
+- GitHub
+- Node.js
+- npm
+- React Framework
+- Vite
+- JavaScript, HTML, CSS, JSX, JavaScript XML
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## How to Run Project:
+1. Navigate to the project directory and install the dependencies:
+```bash
+cd timetabled
+npm install
+```
+2. Run the command to start a localhost runtime of the code
+```bash
+npm run dev
+```
+
+## Results:
+This image represents is what the code should bring up
+![alt text](image.png)
